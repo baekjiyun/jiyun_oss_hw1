@@ -12,9 +12,9 @@ def main():
         check = int(input())
         if check == 1:
             print("First Number")
-            x = int(input())
+            x = float(input())
             print("Second Number")
-            y = int(input())
+            y = float(input())
             print("answer : ", plus(x,y))
         elif check > 1:
             print("Unsupported")
